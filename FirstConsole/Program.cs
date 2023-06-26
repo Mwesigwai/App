@@ -24,7 +24,7 @@ System.Console.WriteLine("Enter amount for every item");
 for (Class1.i  = 0; Class1.i < Class1.numOfItems; Class1.i++)
 {
     Class1.Items += 1;
-    System.Console.WriteLine("Item {0}: ", Class1.Items);
+    System.Console.WriteLine("Price for Item {0}: ", Class1.Items);
     AmountForEveryItem[Class1.i] = int.Parse(Console.ReadLine());
     Class1.totalAmount += AmountForEveryItem[Class1.i];
 }
@@ -33,3 +33,5 @@ System.Console.WriteLine("\n Total = " + Class1.totalAmount);
 {
    System.Console.WriteLine(AmountForEveryItem[i]); 
 }*/
+
+Friends.SayHello();
